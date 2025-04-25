@@ -8,5 +8,8 @@ namespace CleaningScript.Models
 {
     public class EducationLesson
     {
+        public Guid Id { get; set; }
+        public string? Name { get; set; }
+        public Guid ModuleId { get; set; }
     }
 }

@@ -10,6 +10,7 @@ class Program
     static void Main()
     {
         EntityFiles.GetAllEntityFiles();
+        EntityFiles.GetOrphaned();
 
         _db.Dispose(); 
     }

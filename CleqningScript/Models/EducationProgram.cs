@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleaningScript.Models
+namespace CleqningScript.Models
 {
-    public class Module
+    public class EducationProgram
     {
         public Guid Id { get; set; }
         public string? Name { get; set; }

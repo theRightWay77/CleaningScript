@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleaningScript.Models
+namespace CleqningScript
 {
-    public class Module
+    public class LessonMaterials
     {
-        public Guid Id { get; set; }
-        public string? Name { get; set; }
+
     }
 }
