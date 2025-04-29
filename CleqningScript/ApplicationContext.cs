@@ -1,4 +1,5 @@
 ﻿using CleaningScript.Models;
+using CleqningScript;
 using CleqningScript.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -29,6 +30,7 @@ namespace CleaningScript
         public DbSet<Compartment> Compartments { get; set; }
 
         public DbSet<EducationProgramOrder> EducationProgramOrders { get; set; }
+        public DbSet<RequestToEnterTheOrganization> RequestToEnterTheOrganizations { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

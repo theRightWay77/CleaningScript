@@ -8,6 +8,7 @@ class Program
     private static ApplicationContext _db = new ApplicationContext();
     private static EntityFiles EntityFiles = new EntityFiles();
     private static EducationProgramOrders EducationProgramOrders = new EducationProgramOrders();
+    private static RequestsToEnterTheOrganizations RequestsToEnterTheOrganizations = new RequestsToEnterTheOrganizations();
 
     static void Main()
     {
@@ -15,8 +16,11 @@ class Program
         //EntityFiles.GetOrphaned();
 
        //EducationProgramOrders.GetAll();
-        EducationProgramOrders.GetAllWithOrg();
-        EducationProgramOrders.GetOrphaned();
+        //EducationProgramOrders.GetAllWithOrg();
+        //EducationProgramOrders.GetOrphaned();
+
+        RequestsToEnterTheOrganizations.GetAllWithOrgName();
+        RequestsToEnterTheOrganizations.GetOrphaned();
         _db.Dispose(); 
     }
 
