@@ -28,6 +28,8 @@ namespace CleaningScript
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Compartment> Compartments { get; set; }
 
+        public DbSet<EducationProgramOrder> EducationProgramOrders { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Data Source=EXPASYS-SLANOVA;Initial Catalog=COPP;Integrated Security=True;Trust Server Certificate=True");

@@ -1,17 +1,22 @@
 ﻿using CleaningScript;
 using CleaningScript.Models;
+using CleqningScript;
 using Microsoft.Data.SqlClient;
 
 class Program
 {
     private static ApplicationContext _db = new ApplicationContext();
     private static EntityFiles EntityFiles = new EntityFiles();
+    private static EducationProgramOrders EducationProgramOrders = new EducationProgramOrders();
 
     static void Main()
     {
-        EntityFiles.GetAllEntityFiles();
-        EntityFiles.GetOrphaned();
+        //EntityFiles.GetAllEntityFiles();
+        //EntityFiles.GetOrphaned();
 
+       //EducationProgramOrders.GetAll();
+        EducationProgramOrders.GetAllWithOrg();
+        EducationProgramOrders.GetOrphaned();
         _db.Dispose(); 
     }
 
