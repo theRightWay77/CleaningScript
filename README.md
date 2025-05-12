@@ -8,18 +8,18 @@ ChatMessages - сообщения в чатах в образовательны�
 Chats - чаты в образовательных процессах
 Classes - ??? откуда это вообще
 Compartments - помещения организации
-CompetenceCompartments
+CompetenceCompartments - компетенции помещений (Архитектура/Машинное обучение и большие данные и др.)
 CompetenceCourses - компетенции курсов (Архитектура/Машинное обучение и большие данные и др.)
 CompetenceDigitalTrainingMaterials
-CompetenceDisciplines
+CompetenceDisciplines - ???
 CompetenceDnnUsers
 CompetenceEducationInfoPrograms
 CompetenceElementCompetences
 CompetenceEquipments
-CompetenceModules
-CompetenceProfessions
+CompetenceModules - компенетции модулей (Архитектура/Машинное обучение и большие данные и др.)
+CompetenceProfessions 
 CompetenceProfiles
-CompetencePrograms
+CompetencePrograms - компетенции программ (Архитектура/Машинное обучение и большие данные и др.)
 Competences - компетенции (Архитектура/Машинное обучение и большие данные и др.)
 CompetenceSpecialties
 CompetenceStaffResources
@@ -35,7 +35,7 @@ DTMLessons
 EducationClassDependencies
 EducationClassEquipments - оборудование образовательных классов (образовательных уроков, которые участвуют в процессе)
 EducationClasses - статические копии образовательных уроков, которые участвуют в процессе
-EducationClassGroups
+EducationClassGroups - группы статических копий образовательных уроков, которые участвуют в процессе
 EducationLessons - уроки
 EducationLevelsGenitiveName - ??? призрак
 EducationProcesses - образовательные процессы
@@ -515,7 +515,6 @@ OrganizationRolesOrders - заявки на роли организаций
 Organizations - организации
 OrganizationsHistory - история создания организаций
 PivotUserProfile - ???
-PreviousEducations
 ProfessionDnnUsers - профессия которая доется в конце ??
 ProfessionEducationInfoPrograms
 ProfessionModules - профессия, на которую направлен модуль
@@ -529,8 +528,8 @@ RequestToEnterTheOrganizations - заявки на вступление в ор�
 StudentBlockProcessExpelledOrders - заявки на отчисление студентов из конкретного модуля образовательного процесса
 StudentCategoryPrograms - т000
 StudentExpelledOrders - список отчислений студентов из конкретного модуля образовательного процесса
-StudentGroups
-StudentOrderEducationProcessModules
+StudentGroups - студенческие группы образовательных процессов
+StudentOrderEducationProcessModules - модули процессов, на которые подали заявку на вступление
 StudentOrders - заявки студентов на вступление в образовательный процесс
 Subdivisions - подразделения организаций
 sysdiagrams - ???
